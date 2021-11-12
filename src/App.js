@@ -1,9 +1,9 @@
+import Main from './main/main';
 
 function App() {
+  const data=require('./data.json');
   return (
-    <div className="App">
-      ;k;
-    </div>
+    <Main data={data}></Main>
   );
 }
 
